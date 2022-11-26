@@ -1,6 +1,7 @@
 * {
 
    font-family: 'Roboto', sans-serif;
+   box-sizing: border-box;
 
 }
 
@@ -25,12 +26,20 @@ ol.pokemon {
 }
 
 ol.pokemon li {
-    
+   
+   display: flex;
+   flex-direction: column;
    margin: .5rem;
    padding: 1rem;
    background-color: #14a06f;
    color: #fff;
    border-radius: 1rem;
-   height: 110px;
+   
+}
 
+ol.pokemon li img{
+
+    max-width: 100%;
+    height: 100px;
+    align-self: flex-end;
 }
