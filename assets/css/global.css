@@ -31,5 +31,6 @@ ol.pokemon li {
    background-color: #14a06f;
    color: #fff;
    border-radius: 1rem;
+   height: 110px;
 
 }
