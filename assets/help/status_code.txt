@@ -1,0 +1,8 @@
+----------------------------------------------------------------------------------
+STATUS CODE
+----------------------------------------------------------------------------------
+
+O Status Code é a resposta de uma requisição. Para saber o significado dos possíveis status retornados, basta utilizar o link abaixo:
+
+https://httpstatusdogs.com/
+

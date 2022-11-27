@@ -1,0 +1,99 @@
+--------------------------------------------------------------------
+REQUISIÇÃO HTTP
+--------------------------------------------------------------------
+
+< Estrutura >
+
+URL: https://pokeapi.co/api/v2/pokemon
+
+Request Method: GET | POST | PUT | DELETE
+
+Request Headers
+   content-type: application/json
+
+Request body {
+
+   "'": "Teste"
+
+}
+
+Status Code: 200 OK
+
+Response Headers
+
+Response Body
+
+
+--------------------------------------------------------------------
+REQUISIÇÃO HTTP (detalhes)
+--------------------------------------------------------------------
+
+< URL >
+
+Exemplo: URL: https://pokeapi.co/api/v2/pokemon
+
+Uma requisição é dividida em 3 partes: Domínio, Patch e Query String;
+
+Nesse caso:
+
+- DOMÍNIO --> https://pokeapi.co
+  Nota: É o domínio onde se encontra a API.
+
+- PATCH --> /api/v2/pokemon
+  Nota: O patch é o caminho de identificação do recurso que será consumido/utilizado.
+
+- QUERY STRING --> ?offset=20&limit=10
+  
+  Nota: A Query String funciona como um WHERE de uma instrução SQL. Para utilizar, passe primeiro um '?' e depois o argumento desejado.
+
+
+< Request Method >
+
+Os métodos utilizados para uma requisição pode ser: GET, POST, PUT e DELETE.
+
+- GET --> Busca (SELECT) uma informação através da URL;
+
+- POST --> Publica (INSERT) uma nova informação através da URL;
+
+- PUT --> Faz uma atualização (UPDATE) de dados através da URL;
+
+- DELETE --> Apaga uma informação usando a URL.
+
+
+<Request Headers>
+
+ É a configuração das informações que serão enviadas nesta requisição.
+
+ Exemplo: content-type: application/json (está informando que será passada uma aplicação com o tipo de dado 'JSON').
+
+
+
+<Request Body >
+
+É o corpo onde irão as informações propriamente ditas. No exemplo abaixo, será enviado um 'JSON'; 
+ 
+
+Exemplo:
+
+ Request body {
+
+   "'": "Teste"
+
+}
+
+
+< Status Code >
+
+É literalmente o status da requisição.
+
+Exemplo: Status Code: 200 OK
+
+
+< Response Headers >
+
+É a retorno do headers passado.
+
+
+< Response Body >
+
+É o que foi retornado como resposta do JSON passado.
