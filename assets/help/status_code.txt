@@ -6,3 +6,5 @@ O Status Code é a resposta de uma requisição. Para saber o significado dos po
 
 https://httpstatusdogs.com/
 
+
+
