@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+TRATAMENTO DE RESPOSTA COM FUNCITION E AERO FUNCTION
+-------------------------------------------------------------------------------
+
+< FUNCTION>
+
+ESTRUTURA:
+
+fetch(url)
+         .then(function(response){
+              response
+                  .json()
+                  .then(function(responseBody){
+                       console.log(responseBody)
+                  
+                  })
+         })
+         .catch(function(error){
+              console.error(error)
+         })
+         .finally(function(){
+              console.log('Requisição Concluida!')
+         })
+
+-------------------------------------------------------------------------------
+
+
+< AERO FUNCTION >
+
+É UMA FORMA REDUZIDA DA ESTRUTURA THEN;
+
+fetch(url)
+         .then((response) => response.json())
+         .then((jsonBody) => console.log(jsonBody))
+         .catch((error) => console.error(error))
+
+
+-------------------------------------------------------------------------------
