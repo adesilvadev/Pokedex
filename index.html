@@ -31,29 +31,40 @@
 </head>
 
 <body>
-    
-    <section class="content">  <!-- Passo 5: Criei uma sessão para adicionar as listas -->
-          
+    <section class="content">
         <h1>Pokedex</h1>
-        <p>To Gustavo Isaac</p>
 
-        <ol id='pokemonList' class="pokemons"> <!-- Passo 6: Apiquei a tag 'ol' para cria listas ordenadas -->
-            <li class="pokemon">
+        <ol class="pokemons" id="pokemonList">
+            <!-- <li class="pokemon">
+                <span class="number">#001</span>
+                <span class="name">Bulbasaur</span>
 
-            </li>
-
-            <!-- A lista será chamada aqui-->
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type">grass</li>
+                        <li class="type">poison</li>
+                    </ol>
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="buldasaur">
+                </div>
+            </li> -->
+            <!-- <li>Ivysaur<figure><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/2.svg" alt="buldasaur"></figure>
+            </li></li>
+            <li>Venusaur<figure><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg" alt="buldasaur"></figure>
+            </li></li>
+            <li>Charmander<figure><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg" alt="buldasaur"></figure>
+            </li></li>
+            <li>Charmeleon<figure><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/5.svg" alt="buldasaur"></figure>
+            </li></li>
+            <li>Charizard<figure><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/6.svg" alt="buldasaur"></figure>
+            </li></li> -->
         </ol>
-
-
+        <div class="container-button">
+            <button type="button" id="loadMore">Load More...</button>
+        </div>
+        
     </section>
-
-
-    <!-- Passo 3 -->
-    <!-- Criei a pasta 'js', criei o arquivo 'main.js' para armazenas os scrips de comportamento. -->
-    <!-- Agora vou importar aqui, como fiz com a pagina de estilos no 'passo 2'-->
-
-    <script src="/assets/js/main.js"></script>
-
+    <script src="./assets/js/pokemon-model.js"></script>
+    <script src="./assets/js/poke-api.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
